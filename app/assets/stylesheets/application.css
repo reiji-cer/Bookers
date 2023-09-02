@@ -1,0 +1,46 @@
+.top-outer{
+  /*background-color: red;*/
+  margin: 20px;
+  font-size: 13px;
+}
+.top-box{
+  /*backgroundt-color: green;*/
+  display: flex;
+  /*margin: 20px;*/
+}
+
+.title-box{
+  /*background-color: orange;*/
+  width: 200px;
+  
+}
+
+.inner-box2{
+  /*background-color: blue;*/
+  width: 500px;
+}
+
+.head{
+  
+}
+
+.under-box{
+  font-size: 11px;
+}
+
+.show-top-outer{
+  margin: 30px;
+  font-weight: bold;
+}
+
+.show-head{
+  font-weight: bold;
+}
+.show-in{
+  font-weight: lighter;
+}
+
+.flash-notice{
+  color: green;
+  font-weight: lighter;
+}

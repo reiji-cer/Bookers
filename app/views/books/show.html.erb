@@ -1,0 +1,15 @@
+<div class="show-top-outer">
+    <div class="flash-notice">
+        <%= flash[:notice] %>
+    </div>
+    <div>
+        <span class="show-head">Title:</span>
+        <span class="show-in"><%= @book.title %></span>
+    </div>
+    <div>
+        <span class="show-head">Body:</span>
+        <span class="show-in"><%= @book.body %></span>
+    </div>
+    <%= link_to 'Edit', edit_book_path(params[:id]) %>
+    <%= link_to 'Back', books_path %>
+</div>
